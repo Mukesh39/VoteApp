@@ -1,0 +1,17 @@
+{
+  "name": "NarenderModi",
+  "party": "BJP",
+  "age": 71,
+  "votes": [
+    {
+      "user": "254e332bnsnsm",
+      "votedAt": "time"
+    },
+
+    {
+      "user": "254e332bnsnsm",
+      "votedAt": "time"
+    }
+  ],
+  "voterCount": 1
+}

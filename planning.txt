@@ -1,0 +1,56 @@
+planning is toughre than Programmig 
+
+voting app 
+what ?
+
+Fucntionality where user can vote in the application
+Models
+Routes
+
+voting app functioanlity 
+
+user sigh up and sighn in 
+see the list of candidate 
+vote one of the candoadtes aand afetr voting vkter cant vote again 
+there is route which shows the list of candidates and their live votesr count sorted by theor vote count 
+user data must contain their one unique govt id proof named :addhar card number
+there should be one admin who can only maintain the table of candidates and he cant able to vkte at all 
+user can change their password 
+user can login only with addahar ard number and password ?
+admin cant vote at all 
+
+
+//Routes 
+
+user Authentication :
+/signup : POST - create a new user account
+/login : POST - login in to an existing account {addhar + password}
+
+
+voting : 
+/candidates : GET - get the list of candidates 
+/vote/:candidateId : POST - vote for the specific candidate
+
+
+Vote counts : 
+/vote /counts : GET - get the list of sorted by their vote counts
+
+
+
+User Profile : 
+/profile : GET - Get the user's Profile information
+/profile/password : PUT - change the user password
+
+
+
+Admin candidate Management : 
+/candidates : POST - create a new candidates
+
+/candidates /:candidateId : PUT - update an existing candidate
+
+/candidates/:candidateId : DELETE - delete an candidate from the list 
+
+
+
+
+
